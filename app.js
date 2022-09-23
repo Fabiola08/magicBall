@@ -8,7 +8,7 @@ const ask = () => {
         //Imprimir Resultado
         answerInput.value = answer;
     } else {
-        answerInput.value = "Pregunta algo!!";
+        answerInput.value = "Escribe tu pregunta";
     }
 };
 
