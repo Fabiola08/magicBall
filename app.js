@@ -18,28 +18,28 @@ const magicBall = () => {
     let eightBall = '';
     switch (randomNumber){
     case 0:
-        eightBall = 'It is certain';
+        eightBall = 'Claro que sí';
         break;
     case 1:
-        eightBall = 'It is decidedly so';
+        eightBall = 'Definitivamente de acuerdo';
         break;
     case 2:
-        eightBall = 'Reply hazy try again';
+        eightBall = 'Intenta otra vez';
         break;
     case 3:
-        eightBall = 'Cannot predict now';
+        eightBall = 'No puedo predecirlo';
         break;
     case 4:
-        eightBall = 'Do not count on it';
+        eightBall = 'No creo que suceda';
         break;
     case 5:
-        eightBall = 'My sources say no';
+        eightBall = 'Definitivamente no';
         break;
     case 6:
-        eightBall = 'Outlook not so good';
+        eightBall = 'Perspectiva no tan buena';
         break;
     case 7:
-        eightBall = 'Signs point to yes';
+        eightBall = 'Las señales apuntan que sí';
         break;
     }
     return eightBall;
